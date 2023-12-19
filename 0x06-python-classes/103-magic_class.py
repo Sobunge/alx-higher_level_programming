@@ -2,8 +2,8 @@
 
 """Define a MagicClass matching exactly a bytecode provided by Holberton."""
 
-
 import math
+
 
 class MagicClass:
     """Represent a circle."""
