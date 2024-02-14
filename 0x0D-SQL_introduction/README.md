@@ -62,8 +62,10 @@ $ sudo apt install mysql-server
 $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $
+'''
 
 3. Connect to your MySQL server:
+```sql
 $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 11
