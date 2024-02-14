@@ -54,15 +54,16 @@ $ cat my_script.sql
 -- because Batch 3 is the best!
 SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 3;
 $
-
+```
 2. Install MySQL 8.0 on Ubuntu 20.04 LTS
+```sql
 $ sudo apt update
 $ sudo apt install mysql-server
 ...
 $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $
-'''
+```
 
 3. Connect to your MySQL server:
 ```sql
@@ -83,7 +84,7 @@ mysql>
 mysql> quit
 Bye
 $
-'''sql
+```
 
 Use “container-on-demand” to run MySQL
 In the container, credentials are root/root
@@ -92,6 +93,7 @@ Ask for container Ubuntu 20.04
 Connect via SSH
 OR connect via the Web terminal
 In the container, you should start MySQL before playing with it:
+```sql
 $ service mysql start                                                   
  * Starting MySQL database server mysqld 
 $
@@ -102,5 +104,4 @@ mysql
 performance_schema                                                                         
 sys                      
 $
-
-
+```
