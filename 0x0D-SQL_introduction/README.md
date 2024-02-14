@@ -83,6 +83,7 @@ mysql>
 mysql> quit
 Bye
 $
+'''sql
 
 Use “container-on-demand” to run MySQL
 In the container, credentials are root/root
