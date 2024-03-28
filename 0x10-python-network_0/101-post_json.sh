@@ -1,4 +1,3 @@
 #!/bin/bash
-# Script that sends a GET request to URL and displays body of response
-
-curl -s -X GET -H "X-School-User-Id: 98" "{$1}"
+# Sends a JSON POST request to a given URL with a given JSON file.
+curl -s -H "Content-Type: application/json" -d "$(cat "$2")" "$1"
